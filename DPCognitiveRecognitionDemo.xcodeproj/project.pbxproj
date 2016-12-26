@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9E8AC21E113A6000D43805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC11E113A6000D43805 /* main.m */; };
+		7F9E8AC51E113A6000D43805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC41E113A6000D43805 /* AppDelegate.m */; };
+		7F9E8AC81E113A6000D43805 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC71E113A6000D43805 /* ViewController.m */; };
+		7F9E8ACB1E113A6000D43805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC91E113A6000D43805 /* Main.storyboard */; };
+		7F9E8ACE1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8ACC1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld */; };
+		7F9E8AD01E113A6000D43805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8ACF1E113A6000D43805 /* Assets.xcassets */; };
+		7F9E8AD31E113A6000D43805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8AD11E113A6000D43805 /* LaunchScreen.storyboard */; };
+		7F9E8ADE1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8ADD1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F9E8ADA1E113A6000D43805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9E8AB51E113A6000D43805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9E8ABC1E113A6000D43805;
+			remoteInfo = DPCognitiveRecognitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F9E8ABD1E113A6000D43805 /* DPCognitiveRecognitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPCognitiveRecognitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9E8AC11E113A6000D43805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F9E8AC31E113A6000D43805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F9E8AC41E113A6000D43805 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F9E8AC61E113A6000D43805 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F9E8AC71E113A6000D43805 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F9E8ACA1E113A6000D43805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F9E8ACD1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DPCognitiveRecognitionDemo.xcdatamodel; sourceTree = "<group>"; };
+		7F9E8ACF1E113A6000D43805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F9E8AD21E113A6000D43805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F9E8AD41E113A6000D43805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9E8AD91E113A6000D43805 /* DPCognitiveRecognitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPCognitiveRecognitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9E8ADD1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPCognitiveRecognitionDemoTests.m; sourceTree = "<group>"; };
+		7F9E8ADF1E113A6000D43805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9E8ABA1E113A6000D43805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9E8AD61E113A6000D43805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9E8AB41E113A6000D43805 = {
+			isa = PBXGroup;
+			children = (
+				7F9E8ABF1E113A6000D43805 /* DPCognitiveRecognitionDemo */,
+				7F9E8ADC1E113A6000D43805 /* DPCognitiveRecognitionDemoTests */,
+				7F9E8ABE1E113A6000D43805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9E8ABE1E113A6000D43805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E8ABD1E113A6000D43805 /* DPCognitiveRecognitionDemo.app */,
+				7F9E8AD91E113A6000D43805 /* DPCognitiveRecognitionDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9E8ABF1E113A6000D43805 /* DPCognitiveRecognitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E8AC31E113A6000D43805 /* AppDelegate.h */,
+				7F9E8AC41E113A6000D43805 /* AppDelegate.m */,
+				7F9E8AC61E113A6000D43805 /* ViewController.h */,
+				7F9E8AC71E113A6000D43805 /* ViewController.m */,
+				7F9E8AC91E113A6000D43805 /* Main.storyboard */,
+				7F9E8ACF1E113A6000D43805 /* Assets.xcassets */,
+				7F9E8AD11E113A6000D43805 /* LaunchScreen.storyboard */,
+				7F9E8AD41E113A6000D43805 /* Info.plist */,
+				7F9E8ACC1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld */,
+				7F9E8AC01E113A6000D43805 /* Supporting Files */,
+			);
+			path = DPCognitiveRecognitionDemo;
+			sourceTree = "<group>";
+		};
+		7F9E8AC01E113A6000D43805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E8AC11E113A6000D43805 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F9E8ADC1E113A6000D43805 /* DPCognitiveRecognitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E8ADD1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m */,
+				7F9E8ADF1E113A6000D43805 /* Info.plist */,
+			);
+			path = DPCognitiveRecognitionDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9E8ABC1E113A6000D43805 /* DPCognitiveRecognitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9E8AE21E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemo" */;
+			buildPhases = (
+				7F9E8AB91E113A6000D43805 /* Sources */,
+				7F9E8ABA1E113A6000D43805 /* Frameworks */,
+				7F9E8ABB1E113A6000D43805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPCognitiveRecognitionDemo;
+			productName = DPCognitiveRecognitionDemo;
+			productReference = 7F9E8ABD1E113A6000D43805 /* DPCognitiveRecognitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F9E8AD81E113A6000D43805 /* DPCognitiveRecognitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9E8AE51E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemoTests" */;
+			buildPhases = (
+				7F9E8AD51E113A6000D43805 /* Sources */,
+				7F9E8AD61E113A6000D43805 /* Frameworks */,
+				7F9E8AD71E113A6000D43805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9E8ADB1E113A6000D43805 /* PBXTargetDependency */,
+			);
+			name = DPCognitiveRecognitionDemoTests;
+			productName = DPCognitiveRecognitionDemoTests;
+			productReference = 7F9E8AD91E113A6000D43805 /* DPCognitiveRecognitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9E8AB51E113A6000D43805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ITSOPMOBILEISR8;
+				TargetAttributes = {
+					7F9E8ABC1E113A6000D43805 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7F9E8AD81E113A6000D43805 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F9E8ABC1E113A6000D43805;
+					};
+				};
+			};
+			buildConfigurationList = 7F9E8AB81E113A6000D43805 /* Build configuration list for PBXProject "DPCognitiveRecognitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9E8AB41E113A6000D43805;
+			productRefGroup = 7F9E8ABE1E113A6000D43805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9E8ABC1E113A6000D43805 /* DPCognitiveRecognitionDemo */,
+				7F9E8AD81E113A6000D43805 /* DPCognitiveRecognitionDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9E8ABB1E113A6000D43805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9E8AD31E113A6000D43805 /* LaunchScreen.storyboard in Resources */,
+				7F9E8AD01E113A6000D43805 /* Assets.xcassets in Resources */,
+				7F9E8ACB1E113A6000D43805 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9E8AD71E113A6000D43805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9E8AB91E113A6000D43805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9E8AC81E113A6000D43805 /* ViewController.m in Sources */,
+				7F9E8ACE1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld in Sources */,
+				7F9E8AC51E113A6000D43805 /* AppDelegate.m in Sources */,
+				7F9E8AC21E113A6000D43805 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9E8AD51E113A6000D43805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9E8ADE1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F9E8ADB1E113A6000D43805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9E8ABC1E113A6000D43805 /* DPCognitiveRecognitionDemo */;
+			targetProxy = 7F9E8ADA1E113A6000D43805 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F9E8AC91E113A6000D43805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9E8ACA1E113A6000D43805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F9E8AD11E113A6000D43805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9E8AD21E113A6000D43805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9E8AE01E113A6000D43805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F9E8AE11E113A6000D43805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9E8AE31E113A6000D43805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DPCognitiveRecognitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F9E8AE41E113A6000D43805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DPCognitiveRecognitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F9E8AE61E113A6000D43805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DPCognitiveRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPCognitiveRecognitionDemo.app/DPCognitiveRecognitionDemo";
+			};
+			name = Debug;
+		};
+		7F9E8AE71E113A6000D43805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DPCognitiveRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPCognitiveRecognitionDemo.app/DPCognitiveRecognitionDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9E8AB81E113A6000D43805 /* Build configuration list for PBXProject "DPCognitiveRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9E8AE01E113A6000D43805 /* Debug */,
+				7F9E8AE11E113A6000D43805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9E8AE21E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9E8AE31E113A6000D43805 /* Debug */,
+				7F9E8AE41E113A6000D43805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F9E8AE51E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9E8AE61E113A6000D43805 /* Debug */,
+				7F9E8AE71E113A6000D43805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F9E8ACC1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F9E8ACD1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodel */,
+			);
+			currentVersion = 7F9E8ACD1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodel */;
+			path = DPCognitiveRecognitionDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F9E8AB51E113A6000D43805 /* Project object */;
+}
