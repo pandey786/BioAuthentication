@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DD5571D78E12C57974592C5 /* Pods_DPCognitiveRecognitionDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE917227CBFFB135989F3B4 /* Pods_DPCognitiveRecognitionDemoTests.framework */; };
+		7F1D91041E289E1500D74D77 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90F21E289E1500D74D77 /* MZAppearance.m */; };
+		7F1D91051E289E1500D74D77 /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90F41E289E1500D74D77 /* MZFormSheetBackgroundWindow.m */; };
+		7F1D91061E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90F61E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.m */; };
+		7F1D91071E289E1500D74D77 /* MZFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90F81E289E1500D74D77 /* MZFormSheetController.m */; };
+		7F1D91081E289E1500D74D77 /* MZFormSheetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90FA1E289E1500D74D77 /* MZFormSheetSegue.m */; };
+		7F1D91091E289E1500D74D77 /* MZFormSheetTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90FC1E289E1500D74D77 /* MZFormSheetTransition.m */; };
+		7F1D910A1E289E1500D74D77 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D90FF1E289E1500D74D77 /* NSInvocation+Copy.m */; };
+		7F1D910B1E289E1500D74D77 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D91011E289E1500D74D77 /* UIImage+Additional.m */; };
+		7F1D910C1E289E1500D74D77 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D91031E289E1500D74D77 /* UIViewController+TargetViewController.m */; };
+		7F1D910F1E289EE100D74D77 /* WelcomePersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D910E1E289EE100D74D77 /* WelcomePersonViewController.m */; };
+		7F1E23501E263C65009A612A /* SetUpProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E234F1E263C65009A612A /* SetUpProfileViewController.m */; };
+		7F55FB9E1E1F9DD600C72547 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F55FB9D1E1F9DD600C72547 /* AppUtility.m */; };
+		7F58303A1E1F5B1800280562 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58302D1E1F5B1800280562 /* AlertHandler.swift */; };
+		7F58303B1E1F5B1800280562 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58302E1E1F5B1800280562 /* Constant.swift */; };
+		7F58303C1E1F5B1800280562 /* DataModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F58302F1E1F5B1800280562 /* DataModelClass.swift */; };
+		7F58303D1E1F5B1800280562 /* EnrollMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830301E1F5B1800280562 /* EnrollMeViewController.swift */; };
+		7F58303E1E1F5B1800280562 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830311E1F5B1800280562 /* HomeTableViewCell.swift */; };
+		7F58303F1E1F5B1800280562 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830321E1F5B1800280562 /* HomeViewController.swift */; };
+		7F5830401E1F5B1800280562 /* IdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830331E1F5B1800280562 /* IdentifyViewController.swift */; };
+		7F5830411E1F5B1800280562 /* ListedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830341E1F5B1800280562 /* ListedUserTableViewCell.swift */; };
+		7F5830421E1F5B1800280562 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830351E1F5B1800280562 /* LoginViewController.swift */; };
+		7F5830431E1F5B1800280562 /* NetworkHelperClassIdentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830361E1F5B1800280562 /* NetworkHelperClassIdentification.swift */; };
+		7F5830441E1F5B1800280562 /* ParentEnrollIdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830371E1F5B1800280562 /* ParentEnrollIdentifyViewController.swift */; };
+		7F5830451E1F5B1800280562 /* PhrasestableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830381E1F5B1800280562 /* PhrasestableDataSource.swift */; };
+		7F5830461E1F5B1800280562 /* RegisterdUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830391E1F5B1800280562 /* RegisterdUsersViewController.swift */; };
+		7F58305E1E1F5CEB00280562 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F58304B1E1F5CEB00280562 /* CommonUtil.m */; };
+		7F5830601E1F5CEB00280562 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830501E1F5CEB00280562 /* MBProgressHUD.m */; };
+		7F5830631E1F5CEB00280562 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830561E1F5CEB00280562 /* UIImage+Crop.m */; };
+		7F5830641E1F5CEB00280562 /* FaceRecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830591E1F5CEB00280562 /* FaceRecognitionViewController.m */; };
+		7F5830661E1F5CEB00280562 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F58305D1E1F5CEB00280562 /* RegistrationViewController.m */; };
+		7F58306D1E1F5D2000280562 /* GroupPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5830681E1F5D2000280562 /* GroupPerson.m */; };
+		7F58306E1E1F5D2000280562 /* PersonFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F58306A1E1F5D2000280562 /* PersonFace.m */; };
+		7F58306F1E1F5D2000280562 /* PersonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F58306C1E1F5D2000280562 /* PersonGroup.m */; };
+		7F88E8F01E23CC180052EFCA /* NDIntroPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F88E8EC1E23CC180052EFCA /* NDIntroPageView.m */; };
+		7F88E8F11E23CC180052EFCA /* NDIntroPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F88E8ED1E23CC180052EFCA /* NDIntroPageView.xib */; };
+		7F88E8F21E23CC180052EFCA /* NDIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F88E8EF1E23CC180052EFCA /* NDIntroView.m */; };
+		7F97F21E1E25C48800CCAF21 /* SelectPersonFaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F97F21D1E25C48800CCAF21 /* SelectPersonFaceController.m */; };
 		7F9E8AC21E113A6000D43805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC11E113A6000D43805 /* main.m */; };
 		7F9E8AC51E113A6000D43805 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC41E113A6000D43805 /* AppDelegate.m */; };
-		7F9E8AC81E113A6000D43805 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC71E113A6000D43805 /* ViewController.m */; };
 		7F9E8ACB1E113A6000D43805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8AC91E113A6000D43805 /* Main.storyboard */; };
 		7F9E8ACE1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8ACC1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld */; };
 		7F9E8AD01E113A6000D43805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8ACF1E113A6000D43805 /* Assets.xcassets */; };
 		7F9E8AD31E113A6000D43805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F9E8AD11E113A6000D43805 /* LaunchScreen.storyboard */; };
 		7F9E8ADE1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8ADD1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m */; };
+		E8C34354F2A046355E94042B /* Pods_DPCognitiveRecognitionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E0016C6CB19590B498C01E /* Pods_DPCognitiveRecognitionDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +66,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20F19FA02636A640544AA803 /* Pods-DPCognitiveRecognitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPCognitiveRecognitionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DPCognitiveRecognitionDemo/Pods-DPCognitiveRecognitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5654189347AC8064545AF506 /* Pods-DPCognitiveRecognitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPCognitiveRecognitionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DPCognitiveRecognitionDemo/Pods-DPCognitiveRecognitionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		702BAAFF1AAA08324088D11A /* Pods-DPCognitiveRecognitionDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPCognitiveRecognitionDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DPCognitiveRecognitionDemoTests/Pods-DPCognitiveRecognitionDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1D90F11E289E1500D74D77 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
+		7F1D90F21E289E1500D74D77 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
+		7F1D90F31E289E1500D74D77 /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		7F1D90F41E289E1500D74D77 /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		7F1D90F51E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindowViewController.h; sourceTree = "<group>"; };
+		7F1D90F61E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindowViewController.m; sourceTree = "<group>"; };
+		7F1D90F71E289E1500D74D77 /* MZFormSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetController.h; sourceTree = "<group>"; };
+		7F1D90F81E289E1500D74D77 /* MZFormSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetController.m; sourceTree = "<group>"; };
+		7F1D90F91E289E1500D74D77 /* MZFormSheetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetSegue.h; sourceTree = "<group>"; };
+		7F1D90FA1E289E1500D74D77 /* MZFormSheetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetSegue.m; sourceTree = "<group>"; };
+		7F1D90FB1E289E1500D74D77 /* MZFormSheetTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetTransition.h; sourceTree = "<group>"; };
+		7F1D90FC1E289E1500D74D77 /* MZFormSheetTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetTransition.m; sourceTree = "<group>"; };
+		7F1D90FD1E289E1500D74D77 /* MZMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMacro.h; sourceTree = "<group>"; };
+		7F1D90FE1E289E1500D74D77 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		7F1D90FF1E289E1500D74D77 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		7F1D91001E289E1500D74D77 /* UIImage+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additional.h"; sourceTree = "<group>"; };
+		7F1D91011E289E1500D74D77 /* UIImage+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additional.m"; sourceTree = "<group>"; };
+		7F1D91021E289E1500D74D77 /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		7F1D91031E289E1500D74D77 /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		7F1D910D1E289EE100D74D77 /* WelcomePersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomePersonViewController.h; sourceTree = "<group>"; };
+		7F1D910E1E289EE100D74D77 /* WelcomePersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomePersonViewController.m; sourceTree = "<group>"; };
+		7F1E234E1E263C65009A612A /* SetUpProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpProfileViewController.h; sourceTree = "<group>"; };
+		7F1E234F1E263C65009A612A /* SetUpProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpProfileViewController.m; sourceTree = "<group>"; };
+		7F55FB9C1E1F9DD600C72547 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		7F55FB9D1E1F9DD600C72547 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		7F58302C1E1F5B1700280562 /* DPCognitiveRecognitionDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DPCognitiveRecognitionDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F58302D1E1F5B1800280562 /* AlertHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
+		7F58302E1E1F5B1800280562 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7F58302F1E1F5B1800280562 /* DataModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelClass.swift; sourceTree = "<group>"; };
+		7F5830301E1F5B1800280562 /* EnrollMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrollMeViewController.swift; sourceTree = "<group>"; };
+		7F5830311E1F5B1800280562 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		7F5830321E1F5B1800280562 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F5830331E1F5B1800280562 /* IdentifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifyViewController.swift; sourceTree = "<group>"; };
+		7F5830341E1F5B1800280562 /* ListedUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListedUserTableViewCell.swift; sourceTree = "<group>"; };
+		7F5830351E1F5B1800280562 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F5830361E1F5B1800280562 /* NetworkHelperClassIdentification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelperClassIdentification.swift; sourceTree = "<group>"; };
+		7F5830371E1F5B1800280562 /* ParentEnrollIdentifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentEnrollIdentifyViewController.swift; sourceTree = "<group>"; };
+		7F5830381E1F5B1800280562 /* PhrasestableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhrasestableDataSource.swift; sourceTree = "<group>"; };
+		7F5830391E1F5B1800280562 /* RegisterdUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterdUsersViewController.swift; sourceTree = "<group>"; };
+		7F58304A1E1F5CEB00280562 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		7F58304B1E1F5CEB00280562 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		7F58304F1E1F5CEB00280562 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7F5830501E1F5CEB00280562 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7F5830551E1F5CEB00280562 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		7F5830561E1F5CEB00280562 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		7F5830581E1F5CEB00280562 /* FaceRecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRecognitionViewController.h; sourceTree = "<group>"; };
+		7F5830591E1F5CEB00280562 /* FaceRecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceRecognitionViewController.m; sourceTree = "<group>"; };
+		7F58305C1E1F5CEB00280562 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		7F58305D1E1F5CEB00280562 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		7F5830671E1F5D2000280562 /* GroupPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupPerson.h; sourceTree = "<group>"; };
+		7F5830681E1F5D2000280562 /* GroupPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupPerson.m; sourceTree = "<group>"; };
+		7F5830691E1F5D2000280562 /* PersonFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonFace.h; sourceTree = "<group>"; };
+		7F58306A1E1F5D2000280562 /* PersonFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonFace.m; sourceTree = "<group>"; };
+		7F58306B1E1F5D2000280562 /* PersonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonGroup.h; sourceTree = "<group>"; };
+		7F58306C1E1F5D2000280562 /* PersonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonGroup.m; sourceTree = "<group>"; };
+		7F88E8EB1E23CC180052EFCA /* NDIntroPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDIntroPageView.h; sourceTree = "<group>"; };
+		7F88E8EC1E23CC180052EFCA /* NDIntroPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDIntroPageView.m; sourceTree = "<group>"; };
+		7F88E8ED1E23CC180052EFCA /* NDIntroPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NDIntroPageView.xib; sourceTree = "<group>"; };
+		7F88E8EE1E23CC180052EFCA /* NDIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDIntroView.h; sourceTree = "<group>"; };
+		7F88E8EF1E23CC180052EFCA /* NDIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDIntroView.m; sourceTree = "<group>"; };
+		7F97F21C1E25C48800CCAF21 /* SelectPersonFaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPersonFaceController.h; sourceTree = "<group>"; };
+		7F97F21D1E25C48800CCAF21 /* SelectPersonFaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPersonFaceController.m; sourceTree = "<group>"; };
 		7F9E8ABD1E113A6000D43805 /* DPCognitiveRecognitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPCognitiveRecognitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9E8AC11E113A6000D43805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F9E8AC31E113A6000D43805 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F9E8AC41E113A6000D43805 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F9E8AC61E113A6000D43805 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F9E8AC71E113A6000D43805 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F9E8ACA1E113A6000D43805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F9E8ACD1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DPCognitiveRecognitionDemo.xcdatamodel; sourceTree = "<group>"; };
 		7F9E8ACF1E113A6000D43805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +143,9 @@
 		7F9E8AD91E113A6000D43805 /* DPCognitiveRecognitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPCognitiveRecognitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9E8ADD1E113A6000D43805 /* DPCognitiveRecognitionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPCognitiveRecognitionDemoTests.m; sourceTree = "<group>"; };
 		7F9E8ADF1E113A6000D43805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E0016C6CB19590B498C01E /* Pods_DPCognitiveRecognitionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPCognitiveRecognitionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5E8AB519750C3ACA131D32 /* Pods-DPCognitiveRecognitionDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPCognitiveRecognitionDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DPCognitiveRecognitionDemoTests/Pods-DPCognitiveRecognitionDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEE917227CBFFB135989F3B4 /* Pods_DPCognitiveRecognitionDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPCognitiveRecognitionDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C34354F2A046355E94042B /* Pods_DPCognitiveRecognitionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +161,150 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD5571D78E12C57974592C5 /* Pods_DPCognitiveRecognitionDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FAF842383750593A5C3BC1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20F19FA02636A640544AA803 /* Pods-DPCognitiveRecognitionDemo.debug.xcconfig */,
+				5654189347AC8064545AF506 /* Pods-DPCognitiveRecognitionDemo.release.xcconfig */,
+				702BAAFF1AAA08324088D11A /* Pods-DPCognitiveRecognitionDemoTests.debug.xcconfig */,
+				BA5E8AB519750C3ACA131D32 /* Pods-DPCognitiveRecognitionDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F1D90F01E289E1500D74D77 /* MZFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D90F11E289E1500D74D77 /* MZAppearance.h */,
+				7F1D90F21E289E1500D74D77 /* MZAppearance.m */,
+				7F1D90F31E289E1500D74D77 /* MZFormSheetBackgroundWindow.h */,
+				7F1D90F41E289E1500D74D77 /* MZFormSheetBackgroundWindow.m */,
+				7F1D90F51E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.h */,
+				7F1D90F61E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.m */,
+				7F1D90F71E289E1500D74D77 /* MZFormSheetController.h */,
+				7F1D90F81E289E1500D74D77 /* MZFormSheetController.m */,
+				7F1D90F91E289E1500D74D77 /* MZFormSheetSegue.h */,
+				7F1D90FA1E289E1500D74D77 /* MZFormSheetSegue.m */,
+				7F1D90FB1E289E1500D74D77 /* MZFormSheetTransition.h */,
+				7F1D90FC1E289E1500D74D77 /* MZFormSheetTransition.m */,
+				7F1D90FD1E289E1500D74D77 /* MZMacro.h */,
+				7F1D90FE1E289E1500D74D77 /* NSInvocation+Copy.h */,
+				7F1D90FF1E289E1500D74D77 /* NSInvocation+Copy.m */,
+				7F1D91001E289E1500D74D77 /* UIImage+Additional.h */,
+				7F1D91011E289E1500D74D77 /* UIImage+Additional.m */,
+				7F1D91021E289E1500D74D77 /* UIViewController+TargetViewController.h */,
+				7F1D91031E289E1500D74D77 /* UIViewController+TargetViewController.m */,
+			);
+			path = MZFormSheetController;
+			sourceTree = "<group>";
+		};
+		7F58302B1E1F5AF300280562 /* Voice Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				7F58302D1E1F5B1800280562 /* AlertHandler.swift */,
+				7F58302E1E1F5B1800280562 /* Constant.swift */,
+				7F58302F1E1F5B1800280562 /* DataModelClass.swift */,
+				7F5830301E1F5B1800280562 /* EnrollMeViewController.swift */,
+				7F5830311E1F5B1800280562 /* HomeTableViewCell.swift */,
+				7F5830321E1F5B1800280562 /* HomeViewController.swift */,
+				7F5830331E1F5B1800280562 /* IdentifyViewController.swift */,
+				7F5830341E1F5B1800280562 /* ListedUserTableViewCell.swift */,
+				7F5830351E1F5B1800280562 /* LoginViewController.swift */,
+				7F5830361E1F5B1800280562 /* NetworkHelperClassIdentification.swift */,
+				7F5830371E1F5B1800280562 /* ParentEnrollIdentifyViewController.swift */,
+				7F5830381E1F5B1800280562 /* PhrasestableDataSource.swift */,
+				7F5830391E1F5B1800280562 /* RegisterdUsersViewController.swift */,
+				7F58302C1E1F5B1700280562 /* DPCognitiveRecognitionDemo-Bridging-Header.h */,
+			);
+			path = "Voice Recognition";
+			sourceTree = "<group>";
+		};
+		7F5830471E1F5CEB00280562 /* Face Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				7F5830481E1F5CEB00280562 /* Model */,
+				7F5830491E1F5CEB00280562 /* Utilities */,
+				7F5830571E1F5CEB00280562 /* View Controllers */,
+			);
+			path = "Face Recognition";
+			sourceTree = "<group>";
+		};
+		7F5830481E1F5CEB00280562 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F5830671E1F5D2000280562 /* GroupPerson.h */,
+				7F5830681E1F5D2000280562 /* GroupPerson.m */,
+				7F5830691E1F5D2000280562 /* PersonFace.h */,
+				7F58306A1E1F5D2000280562 /* PersonFace.m */,
+				7F58306B1E1F5D2000280562 /* PersonGroup.h */,
+				7F58306C1E1F5D2000280562 /* PersonGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F5830491E1F5CEB00280562 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F55FB9C1E1F9DD600C72547 /* AppUtility.h */,
+				7F55FB9D1E1F9DD600C72547 /* AppUtility.m */,
+				7F58304A1E1F5CEB00280562 /* CommonUtil.h */,
+				7F58304B1E1F5CEB00280562 /* CommonUtil.m */,
+				7F58304E1E1F5CEB00280562 /* MBProgressHUD */,
+				7F5830551E1F5CEB00280562 /* UIImage+Crop.h */,
+				7F5830561E1F5CEB00280562 /* UIImage+Crop.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7F58304E1E1F5CEB00280562 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7F58304F1E1F5CEB00280562 /* MBProgressHUD.h */,
+				7F5830501E1F5CEB00280562 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7F5830571E1F5CEB00280562 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F5830581E1F5CEB00280562 /* FaceRecognitionViewController.h */,
+				7F5830591E1F5CEB00280562 /* FaceRecognitionViewController.m */,
+				7F58305C1E1F5CEB00280562 /* RegistrationViewController.h */,
+				7F58305D1E1F5CEB00280562 /* RegistrationViewController.m */,
+				7F97F21C1E25C48800CCAF21 /* SelectPersonFaceController.h */,
+				7F97F21D1E25C48800CCAF21 /* SelectPersonFaceController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7F88E8EA1E23CC180052EFCA /* NDParallaxIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				7F88E8EB1E23CC180052EFCA /* NDIntroPageView.h */,
+				7F88E8EC1E23CC180052EFCA /* NDIntroPageView.m */,
+				7F88E8ED1E23CC180052EFCA /* NDIntroPageView.xib */,
+				7F88E8EE1E23CC180052EFCA /* NDIntroView.h */,
+				7F88E8EF1E23CC180052EFCA /* NDIntroView.m */,
+			);
+			path = NDParallaxIntroView;
+			sourceTree = "<group>";
+		};
 		7F9E8AB41E113A6000D43805 = {
 			isa = PBXGroup;
 			children = (
 				7F9E8ABF1E113A6000D43805 /* DPCognitiveRecognitionDemo */,
 				7F9E8ADC1E113A6000D43805 /* DPCognitiveRecognitionDemoTests */,
 				7F9E8ABE1E113A6000D43805 /* Products */,
+				4FAF842383750593A5C3BC1A /* Pods */,
+				CF82204C9952126F0B29BD11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +320,16 @@
 		7F9E8ABF1E113A6000D43805 /* DPCognitiveRecognitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7F1D90F01E289E1500D74D77 /* MZFormSheetController */,
+				7F88E8EA1E23CC180052EFCA /* NDParallaxIntroView */,
+				7F5830471E1F5CEB00280562 /* Face Recognition */,
+				7F58302B1E1F5AF300280562 /* Voice Recognition */,
 				7F9E8AC31E113A6000D43805 /* AppDelegate.h */,
 				7F9E8AC41E113A6000D43805 /* AppDelegate.m */,
-				7F9E8AC61E113A6000D43805 /* ViewController.h */,
-				7F9E8AC71E113A6000D43805 /* ViewController.m */,
+				7F1E234E1E263C65009A612A /* SetUpProfileViewController.h */,
+				7F1E234F1E263C65009A612A /* SetUpProfileViewController.m */,
+				7F1D910D1E289EE100D74D77 /* WelcomePersonViewController.h */,
+				7F1D910E1E289EE100D74D77 /* WelcomePersonViewController.m */,
 				7F9E8AC91E113A6000D43805 /* Main.storyboard */,
 				7F9E8ACF1E113A6000D43805 /* Assets.xcassets */,
 				7F9E8AD11E113A6000D43805 /* LaunchScreen.storyboard */,
@@ -114,6 +357,15 @@
 			path = DPCognitiveRecognitionDemoTests;
 			sourceTree = "<group>";
 		};
+		CF82204C9952126F0B29BD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E0016C6CB19590B498C01E /* Pods_DPCognitiveRecognitionDemo.framework */,
+				EEE917227CBFFB135989F3B4 /* Pods_DPCognitiveRecognitionDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F9E8AE21E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemo" */;
 			buildPhases = (
+				3E5C350D96B3DF8EFED11A40 /* [CP] Check Pods Manifest.lock */,
 				7F9E8AB91E113A6000D43805 /* Sources */,
 				7F9E8ABA1E113A6000D43805 /* Frameworks */,
 				7F9E8ABB1E113A6000D43805 /* Resources */,
+				E719356BCED4E67E7EF4F3C0 /* [CP] Embed Pods Frameworks */,
+				73718EDA6741C4A9B8340DD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F9E8AE51E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemoTests" */;
 			buildPhases = (
+				112BD3D091C869B4625FF7AC /* [CP] Check Pods Manifest.lock */,
 				7F9E8AD51E113A6000D43805 /* Sources */,
 				7F9E8AD61E113A6000D43805 /* Frameworks */,
 				7F9E8AD71E113A6000D43805 /* Resources */,
+				F2D806CB819AC2F745D3CA2C /* [CP] Embed Pods Frameworks */,
+				6F5B0F7761B7AA8D8A9C1BA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +421,12 @@
 				TargetAttributes = {
 					7F9E8ABC1E113A6000D43805 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					7F9E8AD81E113A6000D43805 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7F9E8ABC1E113A6000D43805;
 					};
@@ -198,6 +458,7 @@
 			files = (
 				7F9E8AD31E113A6000D43805 /* LaunchScreen.storyboard in Resources */,
 				7F9E8AD01E113A6000D43805 /* Assets.xcassets in Resources */,
+				7F88E8F11E23CC180052EFCA /* NDIntroPageView.xib in Resources */,
 				7F9E8ACB1E113A6000D43805 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,15 +472,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112BD3D091C869B4625FF7AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5C350D96B3DF8EFED11A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5B0F7761B7AA8D8A9C1BA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DPCognitiveRecognitionDemoTests/Pods-DPCognitiveRecognitionDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73718EDA6741C4A9B8340DD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DPCognitiveRecognitionDemo/Pods-DPCognitiveRecognitionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E719356BCED4E67E7EF4F3C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DPCognitiveRecognitionDemo/Pods-DPCognitiveRecognitionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D806CB819AC2F745D3CA2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DPCognitiveRecognitionDemoTests/Pods-DPCognitiveRecognitionDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F9E8AB91E113A6000D43805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F9E8AC81E113A6000D43805 /* ViewController.m in Sources */,
+				7F1D91091E289E1500D74D77 /* MZFormSheetTransition.m in Sources */,
+				7F58305E1E1F5CEB00280562 /* CommonUtil.m in Sources */,
+				7F5830421E1F5B1800280562 /* LoginViewController.swift in Sources */,
+				7F58306D1E1F5D2000280562 /* GroupPerson.m in Sources */,
+				7F5830401E1F5B1800280562 /* IdentifyViewController.swift in Sources */,
+				7F5830411E1F5B1800280562 /* ListedUserTableViewCell.swift in Sources */,
+				7F5830441E1F5B1800280562 /* ParentEnrollIdentifyViewController.swift in Sources */,
+				7F58303D1E1F5B1800280562 /* EnrollMeViewController.swift in Sources */,
+				7F1E23501E263C65009A612A /* SetUpProfileViewController.m in Sources */,
+				7F58303F1E1F5B1800280562 /* HomeViewController.swift in Sources */,
+				7F1D910B1E289E1500D74D77 /* UIImage+Additional.m in Sources */,
+				7F5830601E1F5CEB00280562 /* MBProgressHUD.m in Sources */,
+				7F58303B1E1F5B1800280562 /* Constant.swift in Sources */,
+				7F58303C1E1F5B1800280562 /* DataModelClass.swift in Sources */,
+				7F1D91081E289E1500D74D77 /* MZFormSheetSegue.m in Sources */,
+				7F5830451E1F5B1800280562 /* PhrasestableDataSource.swift in Sources */,
+				7F55FB9E1E1F9DD600C72547 /* AppUtility.m in Sources */,
+				7F1D91071E289E1500D74D77 /* MZFormSheetController.m in Sources */,
+				7F5830431E1F5B1800280562 /* NetworkHelperClassIdentification.swift in Sources */,
+				7F97F21E1E25C48800CCAF21 /* SelectPersonFaceController.m in Sources */,
+				7F58306E1E1F5D2000280562 /* PersonFace.m in Sources */,
+				7F1D91061E289E1500D74D77 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
+				7F1D910C1E289E1500D74D77 /* UIViewController+TargetViewController.m in Sources */,
 				7F9E8ACE1E113A6000D43805 /* DPCognitiveRecognitionDemo.xcdatamodeld in Sources */,
+				7F1D91041E289E1500D74D77 /* MZAppearance.m in Sources */,
+				7F88E8F21E23CC180052EFCA /* NDIntroView.m in Sources */,
+				7F1D910F1E289EE100D74D77 /* WelcomePersonViewController.m in Sources */,
+				7F58306F1E1F5D2000280562 /* PersonGroup.m in Sources */,
+				7F5830631E1F5CEB00280562 /* UIImage+Crop.m in Sources */,
+				7F88E8F01E23CC180052EFCA /* NDIntroPageView.m in Sources */,
+				7F5830661E1F5CEB00280562 /* RegistrationViewController.m in Sources */,
+				7F5830461E1F5B1800280562 /* RegisterdUsersViewController.swift in Sources */,
 				7F9E8AC51E113A6000D43805 /* AppDelegate.m in Sources */,
+				7F1D91051E289E1500D74D77 /* MZFormSheetBackgroundWindow.m in Sources */,
 				7F9E8AC21E113A6000D43805 /* main.m in Sources */,
+				7F5830641E1F5CEB00280562 /* FaceRecognitionViewController.m in Sources */,
+				7F58303A1E1F5B1800280562 /* AlertHandler.swift in Sources */,
+				7F58303E1E1F5B1800280562 /* HomeTableViewCell.swift in Sources */,
+				7F1D910A1E289E1500D74D77 /* NSInvocation+Copy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +653,7 @@
 		7F9E8AE01E113A6000D43805 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -285,6 +675,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -305,6 +696,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,6 +704,7 @@
 		7F9E8AE11E113A6000D43805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -333,6 +726,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -346,6 +740,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -353,46 +748,67 @@
 		};
 		7F9E8AE31E113A6000D43805 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F19FA02636A640544AA803 /* Pods-DPCognitiveRecognitionDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DPCognitiveRecognitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DPCognitiveRecognitionDemo/Voice Recognition/DPCognitiveRecognitionDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7F9E8AE41E113A6000D43805 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5654189347AC8064545AF506 /* Pods-DPCognitiveRecognitionDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DPCognitiveRecognitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DPCognitiveRecognitionDemo/Voice Recognition/DPCognitiveRecognitionDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		7F9E8AE61E113A6000D43805 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702BAAFF1AAA08324088D11A /* Pods-DPCognitiveRecognitionDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DPCognitiveRecognitionDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPCognitiveRecognitionDemo.app/DPCognitiveRecognitionDemo";
 			};
 			name = Debug;
 		};
 		7F9E8AE71E113A6000D43805 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA5E8AB519750C3ACA131D32 /* Pods-DPCognitiveRecognitionDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DPCognitiveRecognitionDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Durgesh-Pandey.DPCognitiveRecognitionDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPCognitiveRecognitionDemo.app/DPCognitiveRecognitionDemo";
 			};
 			name = Release;
@@ -416,6 +832,7 @@
 				7F9E8AE41E113A6000D43805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F9E8AE51E113A6000D43805 /* Build configuration list for PBXNativeTarget "DPCognitiveRecognitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +841,7 @@
 				7F9E8AE71E113A6000D43805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
