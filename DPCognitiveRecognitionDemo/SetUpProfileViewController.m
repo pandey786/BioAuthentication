@@ -111,9 +111,8 @@
 
 
 - (IBAction)backButtonPressed:(id)sender {
-    
+
     [self dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
 
@@ -122,6 +121,9 @@
 #pragma mark
 
 - (IBAction)nextButtonTapped: (id)sender {
+    
+    [_personNameField resignFirstResponder];
+    
     if (_personNameField.text.length == 0) {
         [CommonUtil simpleDialog:@"please input the person's name."];
         return;

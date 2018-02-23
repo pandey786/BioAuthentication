@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-DPCognitiveRecognitionDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-DPCognitiveRecognitionDemoTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ProjectOxfordFace.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4B67C004A1C01B2C2956C7D36C9C5078</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8AD11077525FBEF8874A5C96E3DFDF23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED915994B5820B8D0B7ABC3165AFD458</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

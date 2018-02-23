@@ -19,9 +19,7 @@ static NSString *const ProjectOxfordFaceSubscriptionKey = @"cc87ecc0b7f74f04acd1
 
 @property (retain, nonatomic) NSMutableArray * groups;
 
-
 - (void)saveContext;
-
 
 @end
 
